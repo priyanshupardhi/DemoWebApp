@@ -9,4 +9,13 @@
         <servlet-name>My servlet</servlet-name>
         <url-pattern>/add</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>Sq servlet</servlet-name>
+      <servlet-class>com.priyanshu.sqServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+        <servlet-name>Sq servlet</servlet-name>
+        <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
 </web-app>
